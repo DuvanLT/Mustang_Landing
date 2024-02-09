@@ -1,3 +1,4 @@
+import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <>
     <Nav />
     <Hero />
+    <Gallery />
     </>
   );
 }
