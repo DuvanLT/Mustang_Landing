@@ -8,7 +8,7 @@ return(
 src={mustangModelo.imagen}
 width={300}
 height={300}
-alt={mustangModelo.name}
+alt={mustangModelo.modelo}
 >
 </Image>
 </picture>
