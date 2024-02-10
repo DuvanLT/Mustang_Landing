@@ -12,7 +12,6 @@ export default function Mustang(){
     }
 
     useEffect(() => {
-        console.log(mustang)
     }, [mustang])
 
     const mustangModelo = mustangs.find((m) => m.modelo === mustang)
