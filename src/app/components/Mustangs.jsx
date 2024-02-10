@@ -21,7 +21,7 @@ export default function Mustang(){
         <section>
         <MustangDetails mustangModelo={mustangModelo} />
         <div className="Mustang__Bottom flex flex-col items-center md:flex-row  md:justify-around md:items-end mt-4 m-2">
-        <select className='border-2 border-black p-1' value={mustang} onChange={handleSelectChange} id='mustangInfo'>
+        <select className='border-2 border-black p-1 bg-transparent' value={mustang} onChange={handleSelectChange} id='mustangInfo'>
             <option value="ecoBoost">EcoBoost</option>
             <option value="Mustang GT">Mustang GT</option>
             <option value="Mach 1">Mustang Mach 1</option>
