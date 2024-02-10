@@ -10,7 +10,7 @@ export default function Hero (){
                 <p className='text-gray-700 m-2 text-balance text-xs md:text-lg md:max-w-[420px]'>Personaliza tu Mustang, añadele poder y roba miradas  con Ford Mustang</p>
                 <CustomButton
                     title="Cotizar"
-                    styles="rounded-lg text-white bg-blue-600 p-2 pl-12 pr-12 mt-5 uppercase"
+                    styles="rounded-lg text-white bg-blue-600 p-2 pl-12 pr-12 mt-5 uppercase hover:bg-blue-800 transition-all duration-500"
                  />
             </div>
             <Image
