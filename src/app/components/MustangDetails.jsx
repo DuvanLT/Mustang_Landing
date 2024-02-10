@@ -1,6 +1,6 @@
 const MustangDetails = ({ mustangModelo }) => {
   return (
-    <div className="Mustang__Top flex flex-col md:flex-row md:justify-around md:items-center md:h-40 bg-zinc-950 text-white p-4">
+    <div className="Mustang__Top flex flex-col md:flex-row md:justify-around md:items-center md:h-40 bg-zinc-950 text-white p-4" id="modelos">
      <div>
         <h3 className='text-xs m-2 ml-0'>Precio desde:</h3>
         <span className='text-xl m-2 ml-0'>${mustangModelo.precio}</span>

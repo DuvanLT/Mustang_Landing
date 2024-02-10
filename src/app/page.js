@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Hero from "./components/Hero";
 import MustangHistoria from "./components/MustangHistoria";
@@ -13,6 +14,7 @@ export default function Home() {
     <Gallery />
     <MustangTec />
     <MustangHistoria />
+    <Footer />
     </>
   );
 }
