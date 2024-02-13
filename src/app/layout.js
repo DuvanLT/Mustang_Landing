@@ -10,6 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    /*Esta hecha con React + Next.js que se me olvidaba decirlo (Mustang >> Camaro)*/ 
     <html lang="es" class="scroll-smooth">
       <body className={poppins.className}>{children}</body>
     </html>
