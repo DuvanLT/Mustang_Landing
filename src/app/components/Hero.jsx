@@ -4,9 +4,9 @@ import CustomButton from './CustomButton'
 export default function Hero (){
     return(
         <>
-        <div className='hero relative h-[580px] justify-center md:justify-start flex md:items-center'>
+        <div className='hero relative max-w-[1840px] m-auto h-[580px] justify-center md:justify-start flex md:items-center'>
             <div className='hero__text text-center md:text-start  md:ml-10 lg:ml-24'>
-                <h1 className='uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-blue-600'>mustang is <br/> horse power</h1>
+                <h1 className='uppercase text-3xl sm:text-4xl md:text-6xl font-bold text-blue-600'>mustang is <br/> american power</h1>
                 <p className='text-gray-700 m-2 ml-0 text-balance text-xs md:text-lg md:max-w-[420px]'>Personaliza tu Mustang, añadele poder y roba miradas  con Ford Mustang</p>
                 <CustomButton
                     title="Cotizar"

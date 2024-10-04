@@ -16,6 +16,9 @@ import GT500gris from '../../../public/Multimedia/Shelby500_Gris.png'
 import rojorally from '../../../public/Multimedia/rojo_rally.png'
 import gris from '../../../public/Multimedia/gris.png'
 import azul from '../../../public/Multimedia/azul.png'
+import GT7_rojo from '../../../public/Multimedia/rojoseptima.png'
+import GT7_azul from '../../../public/Multimedia/azulseptima.png'
+import GT7_gris from '../../../public/Multimedia/griseptima.png'
 
 export const mustangs = [
     {
@@ -84,6 +87,20 @@ export const mustangs = [
       valvulas: 32,
       potencia: 760,   
       precio: "390.000.000" ,  
+      color1: rojorally,      
+      color2: azul,
+      color3: gris,
+   },
+   {
+      id: 5,
+      modelo: "Mustang GT 2024",
+      imagen: GT7_rojo, 
+      imagen2: GT7_azul,
+      imagen3: GT7_gris,
+      motor: "5.0L V8",
+      valvulas: 32,
+      potencia: 486,   
+      precio: "259.990.000" ,  
       color1: rojorally,      
       color2: azul,
       color3: gris,

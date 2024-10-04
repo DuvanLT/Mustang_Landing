@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <>
-        <footer className="bg-zinc-950 text-white text-xs flex flex-col min-[425px]:grid grid-cols-2 sm:flex sm:flex-row md:flex-wrap gap-10 justify-between p-10">
+        <footer className="bg-zinc-950 max-w-[2000px] m-auto   text-white text-xs flex flex-col min-[425px]:grid grid-cols-2 sm:flex sm:flex-row md:flex-wrap gap-10 justify-between p-10">
         <ul className="flex flex-col gap-3">
         <li className="text-lg font-bold ">Vehiculos</li>
        <a href=""> <li>Todos</li> </a>
