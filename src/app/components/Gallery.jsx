@@ -49,7 +49,7 @@ export default function Gallery() {
 
         {idImg && (
                 <section className='flex justify-center items-center mt-10 absolute h-full w-screen'  >
-                    <svg  className='mx-2 lg:mx-10cursor-pointer'  onClick={() => {
+                    <svg  className='mx-2 lg:mx-10 cursor-pointer'  onClick={() => {
                         setIDImg(idImg - 1)
                         if(idImg < 2){
                             setIDImg(8)

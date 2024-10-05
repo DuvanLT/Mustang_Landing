@@ -11,7 +11,7 @@ export default function Nav() {
 
     return(
         <>
-        <header className="flex h-14 mb-2 justify-between md:justify-around  items-center ml-2 mr-2 md:mr-10">
+        <header className="flex h-14 mb-2 justify-between items-center  mx-2 md:px-8 lg:px-[98px] max-w-[1840px] lg:mx-auto">
             <Image
             src={Logo}
             width={62}
